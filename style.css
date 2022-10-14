@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+   /* background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);  */
+  /* background-color: #8d69c0; */
+  /* background-color: rgba(233, 235, 238, 0.5);; */
+
+  /* background-image: url(./endless-constellation.svg); */
+  background-color: rgba(233, 235, 238, 0.5);fff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%234FE'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 10vh;
+  position: sticky;
+  top: 6px;
+  border-radius: 10px;
+  background-color: white;
+  z-index: 2;
+  opacity: 80%;
+  box-shadow: 10px 5px 20px rgb(59, 58, 58);
+}
+
+
+
+ul {
+  list-style: none;
+  padding-top: 10px;
+  background: transparent;
+}
+.li {
+  color: black;
+  display: inline;
+  padding: 6px;
+  margin-right: 50px;
+  background: transparent;
+  font-family: "Arapey", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+._hover:hover {
+  /* background-color: #7769c8; */
+  background-color: #dd3930;;
+  
+  border-radius: 4px;
+}
+.shrink{
+  /* float: right; */
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  display: none;
+
+}
+.sidebar {
+  /* margin-top: 100px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(233, 235, 238, 0.5);
+  /* border: 2px solid black; */
+  border-radius: 10px;
+
+  
+
+
+}
+
+.navlinks{
+  /* text-align: center; */
+  text-decoration: none;
+  /* list-style-type: none; */
+  /* margin-top: 200px; */
+}
+@media only screen and (max-width: 700px) {
+  .text {
+    display: none;
+  }
+  .shrink{
+    display: initial;
+    margin-right: 10px;
+  }
+  .navlinks{
+    display: initial;
+  }
+  .bg{
+    background-color: #dd3930;
+    text-decoration: none;
+  
+  border-radius: 4px;
+  }
+  
+  
+
+}
+.sidebar{
+  height: 40vh;
+  width: 100vw;
+  font-size: 30px;
+  /* border: 2px solid red; */
+
+
+}
+.sidebar > .navlinks{
+  display: initial;
+}
+
+
+
+.image1{
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid black;
+ 
+  background-repeat: no-repeat;
+}
+.text {
+  text-decoration: none;
+  color: black;
+}
+.personalinfosec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foralignment {
+  width: 90vw;
+  min-height: 70vh;
+  margin: 120px 30px;
+  background-color: rgba(233, 235, 238, 0.5);
+  
+
+  border-radius: 10px;
+}
+#tocenter {
+  width: 55vw;
+  height: 65vh;
+  margin: 6%;
+  z-index: 0;
+  box-shadow: 10px 5px 20px rgb(49, 48, 48);
+}
+/* media query for tocentre */
+@media screen and (max-width: 830px) {
+  #tocenter{
+    width: 80vw;
+
+  }
+
+  .textofprofile {
+    margin-left: 2%;
+    padding: 6px;
+  }
+  
+}
+.textofprofile {
+  font-size: 55px;
+  margin-top: 18vh;
+  margin-left: 5%;
+  padding: 10px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.auto-input {
+  font-size: 40px;
+  margin-left: 10%;
+  /* color: #4429dd; */
+
+color: #dd3930;
+  font-family: "Arapey", serif;
+  font-family: "Sriracha", cursive;
+}
+.auto-input2 {
+  font-size: 30px;
+  margin-left: 4px;
+  /* color: #4429dd; */
+  color: #dd3930;
+}
+
+.headingofabout {
+  font-size: 30px;
+  padding-left: 15px;
+  /* color: #4429dd; */
+  color: #dd3930;
+}
+.textofabout {
+  font-size: 25px;
+  padding: 15px;
+}
+
+.hello {
+  background-color: #f67280;
+  font-size: 40px;
+  position: absolute;
+  top: 40vw;
+}
+/* .colorofprofile {
+  background-color: white;
+} */
+
+.H1 {
+  padding: 80px 0 30px 0;
+  text-align: center;
+}
+#Skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  min-height: auto;
+  
+  align-items: center;
+  padding: 10px;
+}
+
+#Skill > div {
+
+  width: 25vw;
+  min-height: auto;
+  border-radius: 6px;
+  background-color: rgba(233, 235, 238, 0.5);
+  box-shadow: 10px 5px 20px rgb(49, 48, 48);
+  padding: 10px;
+}
+.headingofskills {
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 30px;
+}
+.textofskills{
+  padding: 10px;
+  line-height: 150%;
+}
+.col{
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  /* background-color: black; */
+  /* border: 2px solid blue; */
+  border-radius: 5px;
+}
+.even{
+ 
+  /* background-color: #fff; */
+  float: right;
+  /* text-align: right; */
+}
+.odd{
+  /* background-color: beige; */
+  float: left;
+}
+#center{
+  /* display: inline; */
+ width: 100%;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 10px;
+  /* margin-right: 70px; */
+}
+.skillicons{
+  height: 70px;
+  width: 70px;
+}
+
+
+@media  screen and (max-width:850px) {
+  #Skill{
+    flex-direction: column;
+    
+  }
+  
+  #SC{
+    /* border: 2px solid red; */
+    margin: 20px;
+    min-width: 60%;
+  }
+  
+  
+}
+.containerofprojects {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contentofprojects {
+  min-height: 30vh;
+  width: 300px;
+  background-color: rgba(233, 235, 238, 0.5);;
+  border-radius: 4px;
+  box-shadow: 10px 5px 20px rgb(49, 48, 48);
+  padding: 15px;
+  margin: 10px;
+  text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Arapey", serif;
+  font-family: "Sriracha", cursive;
+}
+.projecticons{
+  height: 200px;
+  width: 200px;
+}
+.maincontactinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contactinfo1 {
+  height: 450px;
+  width: 400px;
+  padding-left: 5px;
+  height: auto;
+  font-family: "Arapey", serif;
+  font-family: "Sriracha", cursive;
+}
+.H1 {
+  font-family: "Titillium Web", sans-serif;
+}
+.contactinfo2 {
+  min-height : 500px;
+  width: 300px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+  text-align: end;
+  font-family: "Arapey", serif;
+  font-family: "Sriracha", cursive;
+ 
+}
+
+#form1 {
+  padding: 20px 0 5px 5px;
+}
+.headingofcontact {
+  font-size: 30px;
+  font-family: "Titillium Web", sans-serif;
+}
+.subheadingofcontact {
+  /* color: #4429dd; */
+  color: #dd3930;
+}
+.submit {
+  margin-left: 42%;
+  color: #000;
+  font-size: 15px;
+  padding: 2px 20px 2px 20px;
+  background-color: #dd3930;
+  border-radius: 4px;
+  /* border-color: #7769c8; */
+  border-color: #dd3930;
+}
+.submit:hover {
+  background-color: #edbfbc;
+  cursor: pointer;
+}
+
+.box1{
+  /* border: 2px solid red; */
+}
+.mailaddress {
+  font-size: 30px;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+}
+.address {
+  font-size: 30px;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+}
+.social {
+  font-size: 30px;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  min-height: 100px;
+
+}
+.mail {
+  /* color: #4429dd; */
+  color: #dd3930;
+}
+.address1 {
+  /* color: #4429dd; */
+  color: #dd3930;
+}
+#instaicon {
+  font-size: 30px;
+  
+  transition: font-size 0.5s;
+}
+#instaicon:hover {
+  font-size: 40px;
+}
+#linkedinicon {
+  
+  font-size: 30px;
+  transition: font-size 0.5s;
+}
+#linkedinicon:hover {
+  font-size: 40px;
+}
+#githubicon {
+  
+  font-size: 30px;
+  transition: font-size 0.5s;
+}
+
+#githubicon:hover {
+  font-size: 40px;
+}
+
+@media screen and (max-width:910px){
+  .box{
+    text-align: start;
+    margin-left: 0px;
+  }
+}
+/* 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #4568db;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #b06ab3;
+  width: 4px;
+  border-radius: 100vw;
+} */
+
+.hidden{
+  display: none;
+}
+a,a:hover{
+  text-decoration:none;
+  color:initial;
+  }
